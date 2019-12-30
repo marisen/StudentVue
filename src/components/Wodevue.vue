@@ -23,7 +23,8 @@ export default {
                    {id:1,name:"秦"},
                    {id:2,name:"汉"},
                    {id:3,name:"晋"},
-                   {id:4,name:"隋"}
+                   {id:4,name:"隋"},
+                   {id:4,name:"唐2"}
                ],
                testTxt:""
         }
