@@ -5,6 +5,10 @@
     <input type="text" name="" id="" v-model="name">
     <input type="button" value="添加" @click="Add">
     <p v-for="(item,i) in historyList" :key="item.id"><input type="checkbox">索引：{{i}}------{{item.id}}-----{{item.name|StringFormat}}</p>
+    <hr>
+    <p v-text="testTxt"/>
+    <input type="text" name="" id="" v-model="testTxt">
+
 </div>
 </template>
 <script>
@@ -20,7 +24,8 @@ export default {
                    {id:2,name:"汉"},
                    {id:3,name:"晋"},
                    {id:4,name:"隋"}
-               ]
+               ],
+               testTxt:""
         }
     },
     methods: {
